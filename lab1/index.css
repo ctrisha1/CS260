@@ -1,0 +1,11 @@
+body {
+    background-color: #d29cf1;    /* Light purple */
+}
+h1 {
+    color: rgb(230, 61, 165);
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 1.6em;
+}
