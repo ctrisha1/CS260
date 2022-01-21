@@ -6,11 +6,11 @@
     padding: 0;
 }
 body {
-    background-color: #c2c5d4;    /* Light blue */
+    background-color: #24252a;    /* Light blue */
 }
 li, a, button{
-    font-family: "Playfair+Display", monospace; 
-    font-weight: 400;
+    font-family: "PlayfairDisplay", monospace; 
+    font-weight: 500;
     font-size: 16px;
     color: #edf0f1; 
     text-decoration: none;
@@ -27,4 +27,33 @@ h1 {
 
 h2 {
     font-size: 1.6em;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a.hover {
+    color: 0088a9;
+}
+
+button {
+    padding: 9px 25px; 
+    background-color: rgb(250, 123, 239);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all in 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(240, 107, 233, 0.8);
 }
